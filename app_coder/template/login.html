@@ -1,0 +1,19 @@
+{% extends "padre.html" %}
+{% load static %}
+    
+
+{% block contenido %}
+<body>
+    <h1>Ingresa</h1>
+    <form action="" method="POST">
+        {% csrf_token %}
+
+        {{ form.as_p}}        
+        <button type="submit">Iniciar</button>
+    </form>
+
+
+</body>
+</html>
+
+{% endblock contenido%}

@@ -1,0 +1,34 @@
+{% extends "padre.html" %}
+
+{%  load static %}
+
+
+{% block contenido %}
+
+
+<main>
+
+    
+        <div class="container">
+            
+            <h3>Profesores</h3>
+            <a class="navbar-brand" href="{% url  'profesores' %}">Ver más</a>
+            <h3>Alumnos</h3>
+            <a class="navbar-brand" href="{% url 'alumnos' %}">Ver más</a>
+            <h3>Cursos</h3>
+            <a class="navbar-brand" href="{% url 'cursos' %}">Ver más</a>
+          
+     
+        </div>
+      
+
+</main>
+
+
+
+
+
+
+
+
+{% endblock %}
