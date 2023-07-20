@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'app_coder',
+    'app_laureano',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -51,12 +51,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'proyecto_coder.urls'
+ROOT_URLCONF = 'proyecto_laureano.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [ "C:/Users/User/Desktop/python/preentregas/tercer_preentrega/tercer_preentregaLozano/app_coder/template"],
+        'DIRS': [ "C:/Users/User/Desktop/python/preentregas/tercer_preentrega/tercer_preentregaLozano/app_laureano/template"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'proyecto_coder.wsgi.application'
+WSGI_APPLICATION = 'proyecto_laureano.wsgi.application'
 
 
 # Database

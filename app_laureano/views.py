@@ -1,8 +1,8 @@
 from django.http import HttpResponse
 from django.shortcuts import render
-from app_coder.models import *
+from app_laureano.models import *
 from django.template import loader
-from app_coder.forms import *
+from app_laureano.forms import *
 from django.contrib.auth.forms import AuthenticationForm , UserCreationForm
 from django.contrib.auth import login , authenticate
 from django.contrib.auth.decorators import login_required
